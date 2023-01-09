@@ -42,6 +42,6 @@ while True:
         # ... more
 
     except sr.UnknownValueError:
-        print("I couldn't understand what you said. Please check your voice.....")
+        print("sorry, couldn't understand what you said. Please check your voice.....")
     except sr.RequestError as e:
         print(f'Error calling the API: {e}')
